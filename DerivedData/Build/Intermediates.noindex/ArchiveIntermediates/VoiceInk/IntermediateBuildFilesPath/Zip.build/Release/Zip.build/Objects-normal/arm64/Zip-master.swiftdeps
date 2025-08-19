@@ -1,8 +1,0 @@
-version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
-options: "f36c396eb33c40bb4a0ba50cbee8ee43d10388befc29317261ece27a4c59a191"
-build_start_time: [1750876057, 530152000]
-build_end_time: [1750876060, 782343000]
-inputs:
-  "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/SourcePackages/checkouts/Zip/Zip/QuickZip.swift": [1750876046, 602871575]
-  "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/SourcePackages/checkouts/Zip/Zip/Zip.swift": [1750876046, 603116996]
-  "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/SourcePackages/checkouts/Zip/Zip/ZipUtilities.swift": [1750876046, 603293665]

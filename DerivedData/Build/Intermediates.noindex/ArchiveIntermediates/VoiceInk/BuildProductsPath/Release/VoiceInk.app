@@ -1,1 +1,0 @@
-../../InstallationBuildProductsLocation/Applications/VoiceInk.app
