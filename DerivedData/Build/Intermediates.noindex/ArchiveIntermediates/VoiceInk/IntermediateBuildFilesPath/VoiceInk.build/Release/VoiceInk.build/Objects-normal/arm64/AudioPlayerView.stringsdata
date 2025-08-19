@@ -1,0 +1,40 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/AudioPlayerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Generating waveform...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recording",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "Retranscribe this audio",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 326
+        }
+      },
+      {
+        "comment": "",
+        "key": "Retranscription successful",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 346
+        }
+      }
+    ]
+  },
+  "version": 1
+}

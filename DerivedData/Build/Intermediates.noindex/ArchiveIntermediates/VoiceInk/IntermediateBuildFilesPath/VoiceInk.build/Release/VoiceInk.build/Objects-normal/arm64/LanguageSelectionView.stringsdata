@@ -1,0 +1,88 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/LanguageSelectionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Transcription Language",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "No model selected",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current model: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "This model supports multiple languages. You can choose auto-detect or select a specific language.",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Language",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "Language: English",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current model: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is an English-optimized model and only supports English transcription.",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "Language: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "Language: English (only)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 171
+        }
+      }
+    ]
+  },
+  "version": 1
+}

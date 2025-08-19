@@ -1,0 +1,83 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "121e1a399600b3f95099ba76a8495ac556daee713529c4f0b175d1c289c87d2f"
+    }
+  ],
+  "containerPath" : "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx15.5",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "",
+          "CODE_SIGNING_REQUIRED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/InstallationBuildProductsLocation/OnDemandResources",
+          "ASSETCATALOG_COMPILER_FLATTENED_APP_ICON_PATH" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/BuildProductsPath/ProductIcon.png",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "diagnostic_message_length" : "108",
+          "DSTROOT" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_SIGNATURE_AGGREGATION" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "SHARED_PRECOMPS_DIR" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/PrecompiledHeaders",
+          "SIGNATURE_METADATA_FOLDER_PATH" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/BuildProductsPath/Signatures",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

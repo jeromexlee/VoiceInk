@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin-master.swiftconstvalues",
+    "dependencies" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin-master.d",
+    "diagnostics" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin-master.dia",
+    "emit-module-dependencies" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin-master-emit-module.dia",
+    "swift-dependencies" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin-master.swiftdeps"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/SourcePackages/checkouts/LaunchAtLogin-Modern/Sources/LaunchAtLogin/LaunchAtLogin.swift" : {
+    "index-unit-output-path" : "/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/LaunchAtLogin.build/Release/LaunchAtLogin.build/Objects-normal/arm64/LaunchAtLogin.o"
+  }
+}

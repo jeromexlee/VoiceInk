@@ -1,0 +1,48 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/CustomPrompt.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "\"%@...\"",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 216
+        }
+      },
+      {
+        "comment": "",
+        "key": "\"%@...\" +%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 221
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 252
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add New",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 328
+        }
+      }
+    ]
+  },
+  "version": 1
+}

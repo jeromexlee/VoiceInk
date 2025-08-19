@@ -1,0 +1,88 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Dictionary/DictionaryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Dictionary",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add words to help VoiceInk recognize them properly(154 chars max, ~25 words). Works independently of AI enhancement.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add word to dictionary",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add word",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dictionary Items (%lld)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "Toggle words on/off to optimize recognition. Disable unnecessary words to improve local AI model performance.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 157
+        }
+      },
+      {
+        "comment": "",
+        "key": "Disable word",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enable word",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove word",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 210
+        }
+      }
+    ]
+  },
+  "version": 1
+}

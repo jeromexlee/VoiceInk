@@ -1,0 +1,550 @@
+{
+  "" : {
+    "const-values" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk-master.swiftconstvalues",
+    "dependencies" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk-master.d",
+    "diagnostics" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk-master.dia",
+    "emit-module-dependencies" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk-master-emit-module.dia",
+    "swift-dependencies" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk-master.swiftdeps"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/AppDelegate.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/ClipboardManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ClipboardManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ClipboardManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ClipboardManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/CursorPaster.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CursorPaster.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CursorPaster.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CursorPaster.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/EmailSupport.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmailSupport.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmailSupport.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmailSupport.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/HotkeyManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/HotkeyManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/HotkeyManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/HotkeyManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/MediaController.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MediaController.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MediaController.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MediaController.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/MenuBarManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MenuBarManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MenuBarManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MenuBarManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/AIPrompts.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIPrompts.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIPrompts.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIPrompts.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/CustomPrompt.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CustomPrompt.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CustomPrompt.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CustomPrompt.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/LicenseViewModel.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseViewModel.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseViewModel.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseViewModel.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/PredefinedModels.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PredefinedModels.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PredefinedModels.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PredefinedModels.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/PredefinedPrompts.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PredefinedPrompts.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PredefinedPrompts.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PredefinedPrompts.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/PromptTemplates.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptTemplates.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptTemplates.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptTemplates.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/Transcription.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/Transcription.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/Transcription.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/Transcription.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Models/TranscriptionModel.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionModel.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionModel.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionModel.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/ActiveWindowService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ActiveWindowService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ActiveWindowService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ActiveWindowService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/AppPicker.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppPicker.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppPicker.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppPicker.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/BrowserURLService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/BrowserURLService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/BrowserURLService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/BrowserURLService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/EmojiManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmojiManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmojiManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmojiManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/EmojiPickerView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmojiPickerView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmojiPickerView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EmojiPickerView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModeConfig.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeConfig.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeConfig.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeConfig.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModeConfigView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeConfigView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeConfigView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeConfigView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModePopover.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModePopover.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModePopover.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModePopover.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModeValidator.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeValidator.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeValidator.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeValidator.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModeView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModeViewComponents.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeViewComponents.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeViewComponents.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PowerModeViewComponents.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Recorder.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/Recorder.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/Recorder.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/Recorder.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/AIEnhancementService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIEnhancementService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIEnhancementService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIEnhancementService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/AIService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AIService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/AudioDeviceConfiguration.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioDeviceConfiguration.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioDeviceConfiguration.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioDeviceConfiguration.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/AudioDeviceManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioDeviceManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioDeviceManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioDeviceManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/AudioFileProcessor.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileProcessor.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileProcessor.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileProcessor.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/AudioFileTranscriptionManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileTranscriptionManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileTranscriptionManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileTranscriptionManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/AudioFileTranscriptionService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileTranscriptionService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileTranscriptionService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioFileTranscriptionService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/CloudTranscriptionService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CloudTranscriptionService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CloudTranscriptionService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CloudTranscriptionService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/ImportExportService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ImportExportService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ImportExportService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ImportExportService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/LocalTranscriptionService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LocalTranscriptionService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LocalTranscriptionService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LocalTranscriptionService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/OllamaService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OllamaService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OllamaService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OllamaService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/PolarService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PolarService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PolarService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PolarService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/PromptDetectionService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptDetectionService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptDetectionService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptDetectionService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/PromptMigrationService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptMigrationService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptMigrationService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptMigrationService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/ScreenCaptureService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ScreenCaptureService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ScreenCaptureService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ScreenCaptureService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/TranscriptionService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/UserDefaultsManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/UserDefaultsManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/UserDefaultsManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/UserDefaultsManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Services/WordReplacementService.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WordReplacementService.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WordReplacementService.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WordReplacementService.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/SoundManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/SoundManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/SoundManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/SoundManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/APIKeyManagementView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/APIKeyManagementView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/APIKeyManagementView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/APIKeyManagementView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/AudioPlayerView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioPlayerView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioPlayerView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioPlayerView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/AudioTranscribeView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioTranscribeView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioTranscribeView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioTranscribeView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Common/AnimatedCopyButton.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AnimatedCopyButton.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AnimatedCopyButton.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AnimatedCopyButton.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Common/AnimatedSaveButton.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AnimatedSaveButton.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AnimatedSaveButton.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AnimatedSaveButton.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Common/AppIconView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppIconView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppIconView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AppIconView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Common/CardBackground.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CardBackground.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CardBackground.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/CardBackground.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Components/InfoTip.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/InfoTip.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/InfoTip.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/InfoTip.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Components/ProBadge.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ProBadge.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ProBadge.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ProBadge.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Components/PromptSelectionGrid.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptSelectionGrid.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptSelectionGrid.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptSelectionGrid.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Components/TrialMessageView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TrialMessageView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TrialMessageView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TrialMessageView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/ContentView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Dictionary/DictionarySettingsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/DictionarySettingsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/DictionarySettingsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/DictionarySettingsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Dictionary/DictionaryView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/DictionaryView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/DictionaryView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/DictionaryView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Dictionary/WordReplacementView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WordReplacementView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WordReplacementView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WordReplacementView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/EnhancementSettingsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EnhancementSettingsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EnhancementSettingsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/EnhancementSettingsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/KeyboardShortcutView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/KeyboardShortcutView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/KeyboardShortcutView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/KeyboardShortcutView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/LanguageSelectionView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LanguageSelectionView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LanguageSelectionView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LanguageSelectionView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/LicenseManagementView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseManagementView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseManagementView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseManagementView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/LicenseView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LicenseView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/MenuBarView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MenuBarView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MenuBarView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MenuBarView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Metrics/MetricCard.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricCard.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricCard.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricCard.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Metrics/MetricsContent.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsContent.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsContent.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsContent.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Metrics/MetricsSetupView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsSetupView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsSetupView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsSetupView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Metrics/TimeEfficiencyView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TimeEfficiencyView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TimeEfficiencyView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TimeEfficiencyView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/MetricsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MetricsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/ModelCardRowView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ModelCardRowView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ModelCardRowView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ModelCardRowView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/ModelManagementView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ModelManagementView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ModelManagementView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/ModelManagementView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Onboarding/OnboardingModelDownloadView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingModelDownloadView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingModelDownloadView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingModelDownloadView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Onboarding/OnboardingPermissionsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingPermissionsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingPermissionsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingPermissionsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Onboarding/OnboardingTutorialView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingTutorialView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingTutorialView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingTutorialView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Onboarding/OnboardingView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/OnboardingView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/PermissionsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PermissionsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PermissionsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PermissionsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/PromptCustomizationView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptCustomizationView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptCustomizationView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptCustomizationView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/PromptEditorView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptEditorView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptEditorView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/PromptEditorView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/RecordView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/RecordView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/RecordView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/RecordView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/AudioVisualizerView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioVisualizerView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioVisualizerView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioVisualizerView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/MiniRecorderPanel.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniRecorderPanel.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniRecorderPanel.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniRecorderPanel.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/MiniRecorderView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniRecorderView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniRecorderView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniRecorderView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/MiniWindowManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniWindowManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniWindowManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/MiniWindowManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/NotchRecorderPanel.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchRecorderPanel.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchRecorderPanel.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchRecorderPanel.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/NotchRecorderView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchRecorderView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchRecorderView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchRecorderView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/NotchShape.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchShape.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchShape.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchShape.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Recorder/NotchWindowManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchWindowManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchWindowManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/NotchWindowManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Settings/AudioCleanupManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioCleanupManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioCleanupManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioCleanupManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Settings/AudioCleanupSettingsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioCleanupSettingsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioCleanupSettingsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioCleanupSettingsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Settings/AudioInputSettingsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioInputSettingsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioInputSettingsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/AudioInputSettingsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Settings/SettingsView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/TranscriptionCard.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionCard.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionCard.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionCard.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/TranscriptionHistoryView.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionHistoryView.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionHistoryView.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/TranscriptionHistoryView.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/VoiceInk.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/VoiceInk.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/LibWhisper.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LibWhisper.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LibWhisper.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/LibWhisper.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperError.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperError.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperError.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperError.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperHallucinationFilter.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperHallucinationFilter.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperHallucinationFilter.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperHallucinationFilter.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperPrompt.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperPrompt.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperPrompt.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperPrompt.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperState+ModelManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+ModelManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+ModelManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+ModelManager.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperState+ModelQueries.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+ModelQueries.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+ModelQueries.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+ModelQueries.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperState+UI.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+UI.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+UI.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState+UI.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperState.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperState.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperTextFormatter.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperTextFormatter.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperTextFormatter.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WhisperTextFormatter.o"
+  },
+  "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/WindowManager.swift" : {
+    "index-unit-output-path" : "/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WindowManager.o",
+    "llvm-bc" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WindowManager.bc",
+    "object" : "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/VoiceInk/IntermediateBuildFilesPath/VoiceInk.build/Release/VoiceInk.build/Objects-normal/arm64/WindowManager.o"
+  }
+}

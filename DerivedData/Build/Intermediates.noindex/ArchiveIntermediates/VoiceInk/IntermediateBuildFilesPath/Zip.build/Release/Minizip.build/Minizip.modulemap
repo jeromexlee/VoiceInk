@@ -1,0 +1,4 @@
+module Minizip {
+umbrella header "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/SourcePackages/checkouts/Zip/Zip/minizip/include/Minizip.h"
+export *
+}

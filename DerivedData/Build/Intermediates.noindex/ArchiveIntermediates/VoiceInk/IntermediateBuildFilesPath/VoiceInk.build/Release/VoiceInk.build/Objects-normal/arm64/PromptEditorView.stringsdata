@@ -1,0 +1,176 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/PromptEditorView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit Trigger Words",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Prompt",
+        "location": {
+          "startingColumn": 89,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit Prompt",
+        "location": {
+          "startingColumn": 104,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Editing: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "You can only customize the trigger words for system prompts.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter a short, descriptive title",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Icon",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "Description",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add a brief description of what this prompt does",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter a description",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 170
+        }
+      },
+      {
+        "comment": "",
+        "key": "Prompt Instructions",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "Define how AI should enhance your transcriptions",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start with a Predefined Template",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "Trigger Words",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 362
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add multiple words that can activate this prompt",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add trigger word",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 383
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 390
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove word",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 471
+        }
+      }
+    ]
+  },
+  "version": 1
+}

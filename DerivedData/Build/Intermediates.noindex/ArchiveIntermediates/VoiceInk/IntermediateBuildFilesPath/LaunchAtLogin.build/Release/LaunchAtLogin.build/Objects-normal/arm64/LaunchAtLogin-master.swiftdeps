@@ -1,0 +1,7 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "6ea8240628d2575f6ad6225fb465bb8285be1c2c2d04223353aa8b5a16f6be2a"
+build_start_time: [1750876057, 531022000]
+build_end_time: [1750876062, 123306000]
+inputs:
+  ? "/Users/xinhao.li/Documents/workspace/VoiceInk/DerivedData/SourcePackages/checkouts/LaunchAtLogin-Modern/Sources/LaunchAtLogin/LaunchAtLogin.swift"
+  : [1750876047, 408547658]

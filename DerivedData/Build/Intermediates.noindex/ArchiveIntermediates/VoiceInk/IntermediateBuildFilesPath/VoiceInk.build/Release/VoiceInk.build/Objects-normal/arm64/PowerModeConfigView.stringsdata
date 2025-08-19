@@ -1,0 +1,200 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModeConfigView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 619
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name your power mode",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Applications",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add App",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 213
+        }
+      },
+      {
+        "comment": "",
+        "key": "No applications added",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "Websites",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 275
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter website URL (e.g., google.com)",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 281
+        }
+      },
+      {
+        "comment": "",
+        "key": "No websites added",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 299
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Whisper models available. Download models in the AI Models tab.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 356
+        }
+      },
+      {
+        "comment": "",
+        "key": "Model",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 377
+        }
+      },
+      {
+        "comment": "",
+        "key": "Language",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 405
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enable AI Enhancement",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 439
+        }
+      },
+      {
+        "comment": "",
+        "key": "Context Awareness",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 579
+        }
+      },
+      {
+        "comment": "",
+        "key": "AI Provider",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 479
+        }
+      },
+      {
+        "comment": "",
+        "key": "No providers connected",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 484
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 489
+        }
+      },
+      {
+        "comment": "",
+        "key": "AI Model",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 512
+        }
+      },
+      {
+        "comment": "",
+        "key": "No models available",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 517
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 540
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enhancement Prompt",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 554
+        }
+      }
+    ]
+  },
+  "version": 1
+}

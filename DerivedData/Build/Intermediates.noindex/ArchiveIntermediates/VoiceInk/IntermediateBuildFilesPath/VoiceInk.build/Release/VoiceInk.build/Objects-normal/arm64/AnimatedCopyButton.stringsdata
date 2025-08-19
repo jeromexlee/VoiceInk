@@ -1,0 +1,32 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/Common/AnimatedCopyButton.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Copied",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Before Copy",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 49
+        }
+      }
+    ]
+  },
+  "version": 1
+}

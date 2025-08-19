@@ -1,0 +1,16 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Whisper/WhisperState+ModelManager.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 365
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/PowerMode/PowerModePopover.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Select Power Mode",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 10
+        }
+      }
+    ]
+  },
+  "version": 1
+}

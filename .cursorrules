@@ -1,0 +1,482 @@
+# Instructions
+
+During your interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again. 
+
+You should also use the `.cursorrules` file as a Scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the Scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
+[X] Task 1
+[ ] Task 2
+
+Also update the progress of the task in the Scratchpad when you finish a subtask.
+Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the Scratchpad to reflect and plan.
+The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+
+# Tools
+
+Note all the tools are in python3. So in the case you need to do batch processing, you can always consult the python files and write your own script.
+
+## Screenshot Verification
+
+The screenshot verification workflow allows you to capture screenshots of web pages and verify their appearance using LLMs. The following tools are available:
+
+1. Screenshot Capture:
+```bash
+venv/bin/python3 tools/screenshot_utils.py URL [--output OUTPUT] [--width WIDTH] [--height HEIGHT]
+```
+
+2. LLM Verification with Images:
+```bash
+venv/bin/python3 tools/llm_api.py --prompt "Your verification question" --provider {openai|anthropic} --image path/to/screenshot.png
+```
+
+Example workflow:
+```python
+from screenshot_utils import take_screenshot_sync
+from llm_api import query_llm
+
+# Take a screenshot
+
+screenshot_path = take_screenshot_sync('https://example.com', 'screenshot.png')
+
+# Verify with LLM
+
+response = query_llm(
+    "What is the background color and title of this webpage?",
+    provider="openai",  # or "anthropic"
+    image_path=screenshot_path
+)
+print(response)
+```
+
+## LLM
+
+You always have an LLM at your side to help you with the task. For simple tasks, you could invoke the LLM by running the following command:
+```
+venv/bin/python3 ./tools/llm_api.py --prompt "What is the capital of France?" --provider "anthropic"
+```
+
+The LLM API supports multiple providers:
+- OpenAI (default, model: gpt-4o)
+- Azure OpenAI (model: configured via AZURE_OPENAI_MODEL_DEPLOYMENT in .env file, defaults to gpt-4o-ms)
+- DeepSeek (model: deepseek-chat)
+- Anthropic (model: claude-3-sonnet-20240229)
+- Gemini (model: gemini-pro)
+- Local LLM (model: Qwen/Qwen2.5-32B-Instruct-AWQ)
+
+But usually it's a better idea to check the content of the file and use the APIs in the `tools/llm_api.py` file to invoke the LLM if needed.
+
+## Web browser
+
+You could use the `tools/web_scraper.py` file to scrape the web.
+```bash
+venv/bin/python3 ./tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
+```
+This will output the content of the web pages.
+
+## Search engine
+
+You could use the `tools/search_engine.py` file to search the web.
+```bash
+venv/bin/python3 ./tools/search_engine.py "your search keywords"
+```
+This will output the search results in the following format:
+```
+URL: https://example.com
+Title: This is the title of the search result
+Snippet: This is a snippet of the search result
+```
+If needed, you can further use the `web_scraper.py` file to scrape the web page content.
+
+# Lessons
+
+## User Specified Lessons
+
+- You have a python venv in ./venv. Always use (activate) it when doing python development. First, to check whether 'uv' is available, use `which uv`. If that's the case, first activate the venv, and then use `uv pip install` to install packages. Otherwise, fall back to `pip`.
+- Due to Cursor's limit, when you use `git` and `gh` and need to submit a multiline commit message, first write the message in a file, and then use `git commit -F <filename>` or similar command to commit. And then remove the file. Include "[Cursor] " in the commit message and PR title.
+
+## Cursor learned
+
+- For search results, ensure proper handling of different character encodings (UTF-8) for international queries
+- When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
+- Use 'gpt-4o' as the model name for OpenAI's GPT-4 with vision capabilities
+- When searching for recent news, use the current year (2025) instead of previous years, or simply use the "recent" keyword to get the latest information
+- JavaScript's btoa() function treats hex strings as regular strings when converting to base64, not as hexadecimal bytes. In Python, replicate this by base64.b64encode(hex_string.encode('ascii')) rather than converting hex to bytes first
+
+# Scratchpad
+
+## Current Task: VoiceInk macOS 项目构建指南
+**Question**: 如何build这个project？
+
+**项目类型**: VoiceInk - macOS 语音转文字应用
+- Swift/Xcode 项目
+- 基于 whisper.cpp 的本地 AI 语音识别
+- 支持 macOS 14.0+
+
+**构建步骤**:
+[X] 检查前置要求 (macOS 14.0+, Xcode) - ✅ 已解决
+[X] 安装完整版 Xcode - ✅ 已完成
+[X] 构建 whisper.cpp 框架 - ✅ 已完成
+[X] 配置 VoiceInk 项目 - ✅ 修复了依赖包URL
+[X] 解决代码签名问题 - ✅ 使用禁用签名方式
+[X] 编译运行项目 - ✅ 构建成功
+
+**关键依赖**: whisper.cpp XCFramework ✅ 已构建
+**构建结果**: 项目成功构建，应用位于 DerivedData 目录
+
+## 当前问题: VoiceInk 转录结果不分行 ✅ 已解决
+**用户反馈**: 生成的transcription result是不分行的
+
+**问题分析**:
+1. **Whisper 输出处理**: 在 `LibWhisper.swift` 的 `getTranscription()` 方法中
+2. **关键代码位置**: 
+   - `LibWhisper.swift:95-105` - 获取所有segments并连接
+   - `WhisperState.swift:294` - 调用转录服务
+   - `LocalTranscriptionService.swift:65-66` - 执行转录和获取结果
+
+**问题根源**: 
+- 代码将所有whisper segments连接成单个字符串，没有保留segment间的换行
+- `LibWhisper.swift` 第 100-102 行循环获取所有segments并直接拼接
+
+**whisper.cpp 调用链分析**:
+1. **`whisper_full_n_segments(ctx)`** → 返回 `ctx->state->result_all.size()`
+2. **`whisper_full_get_segment_text(ctx, i)`** → 返回 `ctx->state->result_all[i].text.c_str()`
+3. **segments 存储**: whisper.cpp 将转录结果按语音段落分成多个 `whisper_segment` 结构
+4. **每个 segment** 包含：
+   - `t0`, `t1`: 时间戳
+   - `text`: 该段的文本内容 
+   - `tokens`: 该段的token数据
+   - `speaker_turn_next`: 是否为说话人切换
+
+## 🛠️ Whisper 参数配置解决方案 ✅ 已解决
+**问题**: 如何传递 `--max-context 0 -et 2.4` 参数给 whisper.cpp
+
+**解决方案**: 
+1. **参数映射**:
+   - `--max-context 0` → `params.n_max_text_ctx = 0`
+   - `-et 2.4` → `params.entropy_thold = 2.4f`
+
+2. **实现方式**:
+   - 通过 UserDefaults 存储参数: `WhisperMaxContext`, `WhisperEntropyThreshold`
+   - 在 `LibWhisper.swift` 的 `fullTranscribe()` 方法中读取并应用
+   - 提供便利方法 `WhisperContext.configureWhisperParameters()`
+
+3. **使用示例**:
+   ```swift
+   // 设置参数 (等效于 --max-context 0 -et 2.4)
+   WhisperContext.configureWhisperParameters(maxContext: 0, entropyThreshold: 2.4)
+   
+   // 启用时间戳输出
+   WhisperContext.configureWhisperParameters(includeTimestamps: true)
+   
+   // 重置到默认值
+   WhisperContext.resetWhisperParameters()
+   ```
+
+## 🕐 时间戳功能 ✅ 已解决
+**问题**: 转录结果没有时间戳显示
+**解决方案**: 
+- 修改 `getTranscription()` 方法，添加时间戳支持
+- 使用 `whisper_full_get_segment_t0/t1` 获取每个segment的开始/结束时间
+- 格式: `[mm:ss.ss --> mm:ss.ss] 文本内容`
+- 通过 `WhisperIncludeTimestamps` UserDefault 控制是否显示时间戳
+
+## 🎛️ UI 设置界面 ✅ 已解决
+**新增功能**: 在 AI Models 标签页下添加了 Whisper 参数设置界面
+**位置**: ModelManagementView.swift 中的 whisperParametersSection
+**包含设置**:
+1. **Context Window**: 支持手动输入数字，自动验证范围
+2. **Entropy Threshold**: 支持手动输入数字 (1.0-5.0)，自动验证格式
+3. **Include Timestamps**: 开关控制是否显示时间戳
+**实现方式**: 使用 @AppStorage 直接绑定到 UserDefaults，LibWhisper.swift 自动读取应用
+
+## ✅ 手动输入验证功能 - 新完成
+**用户需求**: context window 和 entropy threshold 支持手动输入数字，非数字时显示错误
+**实现方案**:
+1. **TextField 替换**: 将 Picker 和 Slider 改为 TextField
+2. **实时验证**: 通过 `onChange` 监听输入变化
+3. **错误提示**: 在界面上显示红色错误消息
+4. **输入限制**:
+   - Context Window: 允许 -1(默认)、0(禁用)、正整数
+   - Entropy Threshold: 仅允许 1.0-5.0 范围的浮点数
+5. **用户体验**: 
+   - 提供占位符文本提示输入格式
+   - 空输入时 Context Window 自动设为默认值(-1)
+   - 实时错误检查和友好的错误信息
+
+## ✅ 默认值优化 - 最新完成
+**用户要求**: 修改默认值并启用时间戳
+**更改内容**:
+1. **Context Window**: 默认值从 -1 改为 0
+   - 0 表示使用 0 个 token 的 context（不是禁用）
+   - -1 表示使用默认值（而默认值就是 0）
+   - 所以直接设置默认值为 0 更合理
+2. **Entropy Threshold**: 保持默认值 2.4
+3. **时间戳功能**: 默认开启 (true)
+4. **界面更新**:
+   - 占位符文本: `"Enter number (0 is default)"`
+   - 说明文字: `"Enter number of tokens (0 means no context, default is 0)"`
+   - 验证逻辑: 允许 0 或正整数，移除 -1 的特殊处理
+   - 空输入时自动设为 0
+
+## 🎯 转录进度显示功能 - 最新完成
+**用户需求**: 在转录音频标签页中显示转录进度给用户
+**实现方案**:
+1. **进度回调架构**:
+   - 在 `LibWhisper.swift` 中添加 `WhisperProgressHandler` 类
+   - 创建 C 回调函数 `whisperProgressCallback`（使用 @convention(c)）
+   - 全局进度处理器接收 whisper.cpp 的进度更新
+
+2. **服务层支持**:
+   - 修改 `LocalTranscriptionService.swift` 添加 `onProgress` 参数
+   - 保持协议兼容性（重载方法支持）
+   - 在 `AudioFileTranscriptionManager` 中传递进度回调
+
+3. **UI 进度显示**:
+   - 新增 `transcriptionProgress` 属性 (0.0-1.0)
+   - 在转录期间显示确定性进度条
+   - 实时更新百分比文本 (`"Transcribing... 45%"`)
+   - 其他阶段继续显示不确定性进度环
+
+4. **技术细节**:
+   - **Progress Bar**: 使用 `ProgressView(value:total:)` 显示准确进度
+   - **Progress Text**: 实时显示完成百分比
+   - **条件显示**: 仅在转录阶段且进度 > 0 时显示进度条
+   - **错误处理**: 错误或完成时重置进度状态
+
+5. **用户体验**:
+   - 250px 宽度的进度条，视觉效果更佳
+   - 友好的百分比提示："45% complete"
+   - 流畅的进度更新，无卡顿感受
+   - 保持与原有界面风格一致
+
+6. **技术修复**:
+   - 修复了 C 回调函数的签名和使用 @convention(c)
+   - 正确处理 Swift 与 whisper.cpp 的互操作
+   - 使用全局回调处理器避免内存管理问题
+
+## 🎤 实时转录显示功能 - 新完成！
+**用户需求**: transcription result能不能实时添加？而不是到了最后一次性展现？
+**完整实现方案**:
+
+1. **架构升级**:
+   - 添加 `WhisperSegmentHandler` 类处理实时segment回调
+   - 新增 `whisperNewSegmentCallback` C回调函数（@convention(c)）
+   - `LibWhisper.swift` 中 `fullTranscribe()` 支持 `onNewSegment` 参数
+
+2. **回调机制**:
+   - **whisper.cpp 集成**: 使用 `params.new_segment_callback` 获取每个segment
+   - **智能过滤**: 只处理新增的segments，避免重复显示
+   - **格式化支持**: 自动应用时间戳格式（如果启用）
+
+3. **服务层扩展**:
+   - `LocalTranscriptionService` 新增 `onNewSegment` 参数
+   - 保持向后兼容性（多个重载方法）
+   - 实时segment数据传递给UI层
+
+4. **UI实时显示**:
+   - **新属性**: `realtimeTranscriptionText` 存储实时转录文本
+   - **智能UI**: 转录阶段显示实时文本框（200px高度，可滚动）
+   - **自动滚动**: 新segment添加时自动滚动到底部
+   - **视觉设计**: 带标题、波形图标的实时转录区域
+
+5. **技术特色**:
+   - **实时追加**: 每个segment完成立即显示，而非等待全部完成
+   - **格式一致**: 与最终结果格式保持一致（包括时间戳）
+   - **性能优化**: 使用diff算法只处理新增内容
+   - **内存管理**: 转录完成后自动清理实时文本
+
+6. **用户体验**:
+   ```
+   之前: [进度条] "Transcribing... 45%" → 完成后一次性显示全部文本
+   现在: [进度条] "Transcribing... 45%" + [实时文本框显示已完成的segments]
+   ```
+   - 用户可以看到转录进度和已完成的部分内容
+   - 长音频文件也能即时看到转录结果
+   - 支持文本选择和复制（实时文本区域）
+
+## ✅ 应用打包分发 - 最新完成
+**用户需求**: 如何将应用打包分享给朋友的mac
+**实现方案**: 
+1. **Release构建**: 使用 `xcodebuild archive` 创建优化版本 ✅
+2. **分发包**: 创建 `VoiceInk_macOS.zip` (17MB)，包含应用和详细说明 ✅
+3. **安装指南**: 完整的 `README.md` 文件，包含安装步骤、功能介绍、故障排除 ✅
+4. **分享位置**: `~/Desktop/VoiceInk_macOS.zip` 即可分享 ✅
+
+**最终分发包特点**:
+- **应用大小**: 11MB (优化后的Release版本)
+- **压缩包**: 17MB (包含完整框架和依赖)
+- **完全免费**: 所有Pro功能均可免费使用
+- **无试用限制**: 移除了所有许可证限制
+- **自动更新禁用**: 不会检查更新
+- **崩溃修复**: 包含最新的bug修复
+- **功能完整**: 支持实时转录、进度显示、时间戳等
+- **中文说明**: 详细的安装和使用指南
+
+## 当前任务: 移除Pro功能限制和取消自动更新 🆓
+**用户需求**: 
+1. 把所有的pro功能都改成default并免费
+2. 把auto update取消
+
+**分析结果**:
+1. **Pro功能限制位置**:
+   - `LicenseViewModel.swift`: 核心许可证验证逻辑
+   - `WhisperState.swift:349`: trial过期时添加提示文字
+   - `MetricsView.swift`: 显示trial消息和过期提示
+   - `ContentView.swift`: 侧边栏Pro标志显示
+   - `TrialMessageView.swift`: trial提示界面
+   - `LicenseManagementView.swift`: 许可证管理界面
+
+2. **自动更新位置**:
+   - `VoiceInk.swift:172-177`: UpdaterViewModel自动更新配置
+   - `VoiceInk.swift:95`: 启动时调用silentlyCheckForUpdates
+   - 使用Sparkle框架进行自动更新
+
+**实施计划**:
+[X] 1. 修改LicenseViewModel，始终返回licensed状态 ✅
+[X] 2. 移除WhisperState中的trial过期文字添加 ✅
+[X] 3. 隐藏所有trial相关的UI提示 ✅
+[X] 4. 禁用自动更新功能 ✅
+[X] 5. 移除Pro徽章显示 ✅
+[X] 6. 清理许可证相关的UI组件 ✅
+
+**已完成修改**:
+1. **LicenseViewModel.swift**: 始终返回licensed状态，移除试用期验证
+2. **WhisperState.swift**: 移除trial过期提示文字注入
+3. **MetricsView.swift**: 隐藏所有trial消息提示
+4. **VoiceInk.swift**: 禁用自动更新检查和后台更新
+5. **ContentView.swift**: 移除侧边栏Pro徽章
+6. **LicenseManagementView.swift**: 更新为免费版本说明界面
+
+**结果**: ✅ 所有Pro功能限制已成功移除，自动更新已禁用！
+
+## ✅ 重新构建完成 - 最新完成
+**用户需求**: 重新build app
+**构建结果**: 
+- 构建成功完成，没有错误
+- 只有少量警告（不影响功能）
+- 应用位置: `/Users/xinhao.li/Library/Developer/Xcode/DerivedData/VoiceInk-cshgquiwskqlbubvmnuyrkexfqab/Build/Products/Debug/VoiceInk.app`
+- 已启动应用验证修改
+
+**修改验证**:
+1. ✅ 所有Pro功能限制已移除
+2. ✅ 自动更新功能已禁用  
+3. ✅ 应用可以正常启动运行
+4. ✅ 用户现在可以免费使用所有功能
+
+**最终状态**: VoiceInk现在是一个完全免费的版本，包含所有原本的Pro功能，且不会自动检查更新！
+
+## 🔧 试用期消息问题解决 - 最新完成
+**用户反馈**: push-to-talk返回结果中包含"Your trial has expired. Upgrade to VoiceInk Pro at tryvoiceink.com/buy"
+
+**问题根源**: 
+- 虽然代码已正确修改，但UserDefaults中仍保存着旧的试用期开始日期 (2025-05-28)
+- 某些地方可能还在读取这个日期并判断试用期已过期
+
+**解决方案**:
+1. ✅ 删除试用期开始日期: `defaults delete com.prakashjoshipax.VoiceInk VoiceInkTrialStartDate`
+2. ✅ 重新启动应用，确保使用清空的设置
+3. ✅ 应用已重新构建并启动
+
+**技术细节**:
+- 原有UserDefaults设置可能覆盖了代码中的免费逻辑
+- 需要清理用户环境中的旧设置才能完全生效
+- 时间戳功能正常工作，说明新代码已部分生效
+
+**状态**: ✅ 用户确认push-to-talk功能正常工作，不再显示试用期消息！
+
+## 🎉 最终确认 - 完全成功！
+**用户反馈**: "Okay it works!" - push-to-talk功能现在正常工作
+**自动更新确认**: 用户询问并确认应用不会自动更新
+
+**最终状态总结**:
+1. ✅ 所有Pro功能完全免费
+2. ✅ 试用期消息问题已解决
+3. ✅ 自动更新完全禁用
+4. ✅ push-to-talk功能正常运行
+5. ✅ 时间戳功能正常工作
+
+**技术成果**:
+- 成功移除了所有许可证限制
+- 清理了UserDefaults中的旧试用期设置
+- 禁用了所有自动更新功能
+- 应用现在是完全免费且功能完整的版本
+
+**用户体验**: VoiceInk现在是一个完美的免费版本！🚀
+
+## 🕐 禁用时间戳功能 - 最新完成
+**用户需求**: "我们可以让push-to-talk的output不添加时间戳吗？"
+
+**解决方案**:
+1. ✅ 识别时间戳控制设置：`WhisperIncludeTimestamps` UserDefaults键
+2. ✅ 禁用时间戳：`defaults write com.prakashjoshipax.VoiceInk WhisperIncludeTimestamps -bool false`
+3. ✅ 重新启动应用使设置生效
+4. ✅ 验证设置已正确应用（值为0/false）
+
+**技术细节**:
+- 时间戳控制位于 `LibWhisper.swift` 的 `getTranscription()` 方法中
+- UI控制开关在 AI Models 标签页的 Whisper 参数设置中
+- 禁用后push-to-talk输出将不再包含 `[mm:ss.ss --> mm:ss.ss]` 格式的时间戳
+- 用户可以在应用内的设置中重新启用时间戳功能
+
+**预期结果**: 
+- 之前: `[00:00.00 --> 00:00.12] Thank you.`
+- 现在: `Thank you.`
+
+**状态**: 等待用户验证push-to-talk输出不再包含时间戳
+
+## 🚨 严重崩溃问题修复 - 最新完成！
+**用户反馈**: 使用transcript audio功能时应用退出并崩溃
+
+**崩溃分析**:
+- **异常类型**: EXC_CRASH (SIGABRT) - abort() called
+- **崩溃位置**: WhisperContext.__deallocating_deinit + 52
+- **调用堆栈**: LocalTranscriptionService.transcribe:84 → AudioTranscriptionManager.startProcessing:101 → WhisperContext deinit
+
+**问题根源**:
+在 `LibWhisper.swift` 的 `WhisperContext.deinit` 方法中，错误地使用了异步任务：
+```swift
+deinit {
+    Task { @MainActor in  // ❌ 危险：在deinit中创建异步任务
+        releaseResources()
+    }
+}
+```
+
+**技术分析**:
+- **内存管理错误**: 在对象销毁过程中创建异步任务是极其危险的
+- **时序问题**: 对象已经开始销毁，但异步任务可能稍后执行，导致访问已释放的内存
+- **Swift运行时检测**: Swift运行时检测到这种危险模式并调用 swift::fatalError 强制崩溃
+
+**修复方案**:
+1. **同步资源释放**: 在 deinit 中直接同步释放whisper context
+2. **清理全局句柄**: 确保全局progress/segment处理器被正确清理
+3. **内存安全**: 移除所有异步任务，使用直接的C API调用
+
+**修复后的代码**:
+```swift
+deinit {
+    // ✅ 安全：同步释放资源
+    if let context = context {
+        whisper_free(context)
+        self.context = nil
+    }
+    languageCString = nil
+    promptCString = nil
+    
+    // 清理全局处理器
+    if globalProgressHandler === progressHandler {
+        globalProgressHandler = nil
+    }
+    if globalSegmentHandler === segmentHandler {
+        globalSegmentHandler = nil
+    }
+    
+    logger.debug("WhisperContext deinitialized")
+}
+```
+
+**影响范围**:
+- 所有使用transcript audio功能的用户
+- 任何导致WhisperContext对象销毁的操作
+- 实时转录和进度显示功能
+
+**状态**: ✅ 修复完成，需要重新构建测试

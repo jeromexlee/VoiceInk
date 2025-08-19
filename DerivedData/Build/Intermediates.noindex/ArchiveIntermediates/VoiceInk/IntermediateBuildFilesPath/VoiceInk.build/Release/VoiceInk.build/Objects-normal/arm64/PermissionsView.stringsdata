@@ -1,0 +1,24 @@
+{
+  "source": "/Users/xinhao.li/Documents/workspace/VoiceInk/VoiceInk/Views/PermissionsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "App Permissions",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 202
+        }
+      },
+      {
+        "comment": "",
+        "key": "VoiceInk requires the following permissions to function properly",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 204
+        }
+      }
+    ]
+  },
+  "version": 1
+}
