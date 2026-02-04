@@ -101,3 +101,13 @@ Temporary Items
 
 # python virtual environment
 /venv/
+
+# Build outputs
+DerivedData/
+*.xcarchive/
+
+# Distribution
+VoiceInk_Distribution/
+
+# Backup/temp directories
+~

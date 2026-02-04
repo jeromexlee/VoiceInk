@@ -16,7 +16,7 @@ struct ModelManagementView: View {
     
     // State for debug settings
     @AppStorage("DebugLoggingEnabled") private var debugLoggingEnabled: Bool = false
-
+    
     // Local state for text input validation
     @State private var contextWindowText: String = ""
     @State private var entropyThresholdText: String = ""
@@ -271,13 +271,13 @@ struct ModelManagementView: View {
         entropyThreshold = value
         entropyThresholdError = nil
     }
-
+    
     private var debugSettingsSection: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Debug Settings")
                 .font(.headline)
                 .foregroundColor(.secondary)
-
+            
             VStack(alignment: .leading, spacing: 12) {
                 // Debug Logging Toggle
                 VStack(alignment: .leading, spacing: 8) {
@@ -285,25 +285,25 @@ struct ModelManagementView: View {
                         Text("Enable Debug Logging")
                             .font(.subheadline)
                             .fontWeight(.medium)
-
+                        
                         Spacer()
-
+                        
                         Toggle("", isOn: $debugLoggingEnabled)
                             .toggleStyle(SwitchToggleStyle())
                     }
-
+                    
                     Text("Show detailed debug logs and popup after each transcription. Useful for troubleshooting AI enhancement issues.")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
-
+                
                 if debugLoggingEnabled {
                     VStack(alignment: .leading, spacing: 8) {
                         HStack {
                             Image(systemName: "info.circle.fill")
                                 .foregroundColor(.blue)
                                 .font(.caption)
-
+                            
                             Text("Debug mode is active. You'll see a detailed log popup after each recording.")
                                 .font(.caption)
                                 .foregroundColor(.blue)
