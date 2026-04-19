@@ -352,14 +352,18 @@ class AIEnhancementService: ObservableObject {
                 ["role": "user", "content": formattedText]
             ]
             
-            let requestBody: [String: Any] = [
+            var requestBody: [String: Any] = [
                 "model": aiService.currentModel,
                 "messages": messages,
                 "temperature": 0.3,
-                "frequency_penalty": 0.0,
-                "presence_penalty": 0.0,
                 "stream": false
             ]
+            
+            // xAI does not support frequency_penalty / presence_penalty
+            if aiService.selectedProvider != .xAI {
+                requestBody["frequency_penalty"] = 0.0
+                requestBody["presence_penalty"] = 0.0
+            }
             
             request.httpBody = try? JSONSerialization.data(withJSONObject: requestBody)
             
@@ -372,11 +376,14 @@ class AIEnhancementService: ObservableObject {
                 
                 switch httpResponse.statusCode {
                 case 200:
+                    logger.notice("✅ OpenAI-compatible response 200 OK")
                     guard let jsonResponse = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
                           let choices = jsonResponse["choices"] as? [[String: Any]],
                           let firstChoice = choices.first,
                           let message = firstChoice["message"] as? [String: Any],
                           let enhancedText = message["content"] as? String else {
+                        let responseStr = String(data: data, encoding: .utf8) ?? "nil"
+                        logger.notice("❌ Failed to parse 200 response: \(responseStr, privacy: .public)")
                         throw EnhancementError.enhancementFailed
                     }
                     
@@ -390,6 +397,8 @@ class AIEnhancementService: ObservableObject {
                     logger.error("Server error (HTTP \(httpResponse.statusCode)): \(String(data: data, encoding: .utf8) ?? "No response data")")
                     throw EnhancementError.serverError
                 default:
+                    let responseStr = String(data: data, encoding: .utf8) ?? "nil"
+                    logger.notice("❌ HTTP \(httpResponse.statusCode, privacy: .public) error: \(responseStr, privacy: .public)")
                     throw EnhancementError.apiError
                 }
                 

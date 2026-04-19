@@ -10,6 +10,7 @@ enum AIProvider: String, CaseIterable {
     case mistral = "Mistral"
     case ollama = "Ollama"
     case elevenLabs = "ElevenLabs"
+    case xAI = "xAI"
     case custom = "Custom"
     
     var baseURL: String {
@@ -30,6 +31,8 @@ enum AIProvider: String, CaseIterable {
             return "https://api.elevenlabs.io/v1/speech-to-text"
         case .ollama:
             return UserDefaults.standard.string(forKey: "ollamaBaseURL") ?? "http://localhost:11434"
+        case .xAI:
+            return "https://api.x.ai/v1/chat/completions"
         case .custom:
             return UserDefaults.standard.string(forKey: "customProviderBaseURL") ?? ""
         }
@@ -53,6 +56,8 @@ enum AIProvider: String, CaseIterable {
             return "scribe_v1"
         case .ollama:
             return UserDefaults.standard.string(forKey: "ollamaSelectedModel") ?? "mistral"
+        case .xAI:
+            return "grok-4-1-fast-non-reasoning"
         case .custom:
             return UserDefaults.standard.string(forKey: "customProviderModel") ?? ""
         }
@@ -96,6 +101,10 @@ enum AIProvider: String, CaseIterable {
             ]
         case .elevenLabs:
             return ["scribe_v1", "scribe_v1_experimental"]
+        case .xAI:
+            return [
+                "grok-4-1-fast-non-reasoning"
+            ]
         case .ollama:
             return []
         case .custom:
