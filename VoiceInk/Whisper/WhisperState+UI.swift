@@ -80,7 +80,7 @@ extension WhisperState {
 
         
         try? await Task.sleep(nanoseconds: 150_000_000)
-        await cleanupModelResources()
+        scheduleModelCleanup()
     }
     
     func cancelRecording() async {

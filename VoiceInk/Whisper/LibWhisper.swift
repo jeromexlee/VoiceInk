@@ -286,29 +286,25 @@ final class WhisperContext {
     }
 
     static func createContext(path: String) async throws -> WhisperContext {
-        // Create empty context first
-        let whisperContext = WhisperContext()
-        
-        // Initialize the context within the actor's isolated context
-        try whisperContext.initializeModel(path: path)
-        
-        return whisperContext
-    }
-    
-    private func initializeModel(path: String) throws {
-        var params = whisper_context_default_params()
-        #if targetEnvironment(simulator)
-        params.use_gpu = false
-        logger.notice("🖥️ Running on simulator, using CPU")
-        #endif
-        
-        let context = whisper_init_from_file_with_params(path, params)
-        if let context {
-            self.context = context
-        } else {
-            logger.error("❌ Couldn't load model at \(path)")
-            throw WhisperError.couldNotInitializeContext
-        }
+        let logger = Logger(subsystem: "com.prakashjoshipax.voiceink", category: "WhisperContext")
+        let start = CFAbsoluteTimeGetCurrent()
+        logger.notice("⏳ Loading whisper model from: \(path)")
+
+        let contextPointer: OpaquePointer = try await Task.detached(priority: .userInitiated) {
+            var params = whisper_context_default_params()
+            #if targetEnvironment(simulator)
+            params.use_gpu = false
+            #endif
+            guard let ctx = whisper_init_from_file_with_params(path, params) else {
+                throw WhisperError.couldNotInitializeContext
+            }
+            return ctx
+        }.value
+
+        let elapsed = CFAbsoluteTimeGetCurrent() - start
+        logger.notice("✅ Whisper model loaded in \(String(format: "%.2f", elapsed))s")
+
+        return WhisperContext(context: contextPointer)
     }
 
     func releaseResources() {

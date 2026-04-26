@@ -68,6 +68,7 @@ class WhisperState: NSObject, ObservableObject, AVAudioRecorderDelegate {
     }
     
     var whisperContext: WhisperContext?
+    var modelCleanupTimer: Timer?
     let recorder = Recorder()
     var recordedFile: URL? = nil
     let whisperPrompt = WhisperPrompt()
@@ -163,7 +164,7 @@ class WhisperState: NSObject, ObservableObject, AVAudioRecorderDelegate {
                         isTranscribing = false
                         canTranscribe = true
                     }
-                    await cleanupModelResources()
+                    scheduleModelCleanup()
                 }
             } else {
                 logger.error("❌ No recorded file found after stopping recording")
@@ -182,29 +183,28 @@ class WhisperState: NSObject, ObservableObject, AVAudioRecorderDelegate {
             }
             shouldCancelRecording = false
             logger.notice("🎙️ Starting recording sequence...")
+            cancelModelCleanup()
             requestRecordPermission { [self] granted in
                 if granted {
                     Task {
+                        let sequenceStart = CFAbsoluteTimeGetCurrent()
                         do {
-                            // --- Prepare temporary file URL within Application Support base directory ---
                             let baseAppSupportDirectory = self.recordingsDirectory.deletingLastPathComponent()
                             let file = baseAppSupportDirectory.appendingPathComponent("output.wav")
-                            // Ensure the base directory exists
                             try? FileManager.default.createDirectory(at: baseAppSupportDirectory, withIntermediateDirectories: true)
-                            // Clean up any old temporary file first
                             self.recordedFile = file
 
+                            let recStart = CFAbsoluteTimeGetCurrent()
                             try await self.recorder.startRecording(toOutputFile: file)
-                            self.logger.notice("✅ Audio engine started successfully.")
+                            self.logger.notice("✅ Audio engine started in \(String(format: "%.2f", CFAbsoluteTimeGetCurrent() - recStart))s")
 
                             await MainActor.run {
                                 self.isRecording = true
                                 self.isVisualizerActive = true
                             }
-                            
+
                             await ActiveWindowService.shared.applyConfigurationForCurrentApp()
 
-                            // Only load model if it's a local model and not already loaded
                             if let model = self.currentTranscriptionModel, model.provider == .local {
                                 if let localWhisperModel = self.availableModels.first(where: { $0.name == model.name }),
                                    self.whisperContext == nil {
@@ -221,6 +221,8 @@ class WhisperState: NSObject, ObservableObject, AVAudioRecorderDelegate {
                                enhancementService.useScreenCaptureContext {
                                 await enhancementService.captureScreenContext()
                             }
+
+                            self.logger.notice("✅ Full recording sequence ready in \(String(format: "%.2f", CFAbsoluteTimeGetCurrent() - sequenceStart))s")
 
                         } catch {
                             self.logger.error("❌ Failed to start recording: \(error.localizedDescription)")
@@ -294,25 +296,17 @@ class WhisperState: NSObject, ObservableObject, AVAudioRecorderDelegate {
                 canTranscribe = true
                 addDebugLog("❌ Transcription cancelled due to shouldCancelRecording flag")
             }
-            await cleanupModelResources()
+            scheduleModelCleanup()
             return
         }
-        
+
         await MainActor.run {
             isProcessing = true
             isTranscribing = true
             canTranscribe = false
             addDebugLog("⚙️ Set processing state: isProcessing=true, isTranscribing=true")
         }
-        
-        defer {
-            if shouldCancelRecording {
-                Task {
-                    await cleanupModelResources()
-                }
-            }
-        }
-        
+
         guard let model = currentTranscriptionModel else {
             logger.error("❌ Cannot transcribe: No model selected")
             await MainActor.run {
@@ -504,8 +498,8 @@ class WhisperState: NSObject, ObservableObject, AVAudioRecorderDelegate {
             }
             
             await dismissMiniRecorder()
-            await cleanupModelResources()
-            
+            scheduleModelCleanup()
+
         } catch {
             logger.error("❌ Transcription failed: \(error.localizedDescription)")
             await MainActor.run {
@@ -515,7 +509,7 @@ class WhisperState: NSObject, ObservableObject, AVAudioRecorderDelegate {
                     showDebugPopup = true
                 }
             }
-            await cleanupModelResources()
+            scheduleModelCleanup()
             await dismissMiniRecorder()
         }
     }

@@ -31,21 +31,31 @@ extension WhisperState {
     // MARK: - Model Loading
     
     func loadModel(_ model: WhisperModel) async throws {
-        guard whisperContext == nil else { return }
-        
+        guard whisperContext == nil else {
+            logger.notice("⏭️ Model already loaded, skipping")
+            return
+        }
+
         isModelLoading = true
         defer { isModelLoading = false }
-        
+
+        logger.notice("⏳ loadModel: starting for \(model.name)")
+        let start = CFAbsoluteTimeGetCurrent()
+
         do {
             whisperContext = try await WhisperContext.createContext(path: model.url.path)
-            
-            // Set the prompt from UserDefaults to ensure we have the latest
+
+            let elapsed = CFAbsoluteTimeGetCurrent() - start
+            logger.notice("✅ loadModel: completed in \(String(format: "%.2f", elapsed))s")
+
             let currentPrompt = UserDefaults.standard.string(forKey: "TranscriptionPrompt") ?? whisperPrompt.transcriptionPrompt
             await whisperContext?.setPrompt(currentPrompt)
-            
+
             isModelLoaded = true
             loadedLocalModel = model
         } catch {
+            let elapsed = CFAbsoluteTimeGetCurrent() - start
+            logger.error("❌ loadModel: failed after \(String(format: "%.2f", elapsed))s")
             throw WhisperStateError.modelLoadFailed
         }
     }
@@ -288,10 +298,27 @@ extension WhisperState {
     }
     
     // MARK: - Resource Management
-    
+
+    private static let modelCleanupDelay: TimeInterval = 20 * 60 // 20 minutes
+
+    func scheduleModelCleanup() {
+        modelCleanupTimer?.invalidate()
+        modelCleanupTimer = Timer.scheduledTimer(withTimeInterval: Self.modelCleanupDelay, repeats: false) { [weak self] _ in
+            Task { @MainActor in
+                await self?.cleanupModelResources()
+            }
+        }
+    }
+
+    func cancelModelCleanup() {
+        modelCleanupTimer?.invalidate()
+        modelCleanupTimer = nil
+    }
+
     func cleanupModelResources() async {
+        cancelModelCleanup()
         try? await Task.sleep(nanoseconds: 300_000_000)
-        
+
         await whisperContext?.releaseResources()
         whisperContext = nil
         isModelLoaded = false
